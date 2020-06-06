@@ -1,3 +1,8 @@
+# code to run on remte workers
+# command: python run_websocekt_server.py --id worker_name --port assigned_no
+# host ip can be modified within the program, or --host ip_addr
+# host ip, worker_id and port number must be consistent with the settings in the server code
+
 from multiprocessing import Process
 import syft as sy
 from syft.workers.websocket_server import WebsocketServerWorker
