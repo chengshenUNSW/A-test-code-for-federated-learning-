@@ -395,5 +395,5 @@ def predict(model, input_line, worker, n_predictions=3):
         print('(%.2f) %s' % (value, all_categories[category_index]))
         predictions.append([value, all_categories[category_index]])
         
-  predict(model_pointers["alice"], "Tai", alice) # here test a name didn't appear in the dataset but with 'typical' feature of a language
-  predict(model_pointers["alice"], "Tai", alice) # here test a name appeared in the dataset 
+ predict(model_pointers["alice"], "Tai", alice) # here test a name didn't appear in the dataset but with 'typical' feature of a language
+ predict(model_pointers["alice"], "Tai", alice) # here test a name appeared in the dataset 
