@@ -1,5 +1,3 @@
-# original
-
 ######### Part 1 installation and import ##########
 
 from __future__ import unicode_literals, print_function, division
